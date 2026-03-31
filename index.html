@@ -7,6 +7,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 
+
+
 :root{
   --lina:#378ADD;--phoebe:#D4537E;--sarah:#1D9E75;--stella:#8B5CF6;
   --bg:#F7F6F2;--surface:#FFF;--surface2:#F1EFE8;
@@ -131,7 +133,15 @@ tr:last-child td{border-bottom:none;}tr:hover td{background:var(--surface2);}
 @keyframes spin{to{transform:rotate(360deg);}}
 .loading-text{font-size:13px;color:var(--muted);}
 
+
+
 </style>
+</head>
+<body>
+
+</head>
+<body>
+
 </head>
 <body>
 
@@ -315,24 +325,41 @@ tr:last-child td{border-bottom:none;}tr:hover td{background:var(--surface2);}
     <div><div class="dr-sec">Amazon Funnel</div><div id="dr-funnel"></div></div>
   </div>
 </div>
+
+
 <script>
-// ── CONFIG ────────────────────────────────────────────────────────────────
+window.__ASSETS__ = {"before1|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Wp6nX33vfh_5sHvExfjCNVW5bslD5QVa/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Wp6nX33vfh_5sHvExfjCNVW5bslD5QVa&sz=w800"}, "milkydewASMR|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1SiPMNHTPpOLyvPnVlFmMkNsntFSHYub2/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1SiPMNHTPpOLyvPnVlFmMkNsntFSHYub2&sz=w800"}, "chxrry|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "Rudolph|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "chxrry-p|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "B&A|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1T0gBDhb5Yy3wll_LRMyFjuPza4KNwtOX", "video_url": "", "video_thumb": ""}, "real|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1F9rhUCIKYJZSCq9DBYCbdBrf1kF-eSFN", "video_url": "", "video_thumb": ""}, "KimHyunjiASMR|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "KimMissokASMR|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "milkydew-p|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "Regrets|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "noMore|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1wUTa98OOmBJb5lJatA8rYredVryZmAxJ", "video_url": "", "video_thumb": ""}, "no1|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1KdseUy8FvhWYUQLPgrprz1t_96ARkNib", "video_url": "", "video_thumb": ""}, "before|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1lhGq2V3APrfve3KeweVJ-eDppOf4fOsh/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1lhGq2V3APrfve3KeweVJ-eDppOf4fOsh&sz=w800"}, "thelipstickgirly2|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Hjd2E7bHEtUtaXtHO4ku44I4rxg-KTa2/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Hjd2E7bHEtUtaXtHO4ku44I4rxg-KTa2&sz=w800"}, "creamyCleanse|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1JPgllvdFqi_3OQXiNIfnhtB439wRcBxb", "video_url": "", "video_thumb": ""}, "DangPoster|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "africa|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "smooth01|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1dBCjeT4hRVs3Pl9QqJxeqUUujuV6m99t/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1dBCjeT4hRVs3Pl9QqJxeqUUujuV6m99t&sz=w800"}, "Zoom|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Snow banner|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1WTqLyMrLYKb1APkgxvCAYV42bu6qziBX/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1WTqLyMrLYKb1APkgxvCAYV42bu6qziBX&sz=w800"}, "real2|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1WJb-1NrfQ6_g7-bcC-0OeBeyCjaltqAs", "video_url": "", "video_thumb": ""}, "lipstickgirlieCutoutSale|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/11cXqPu6isE_bk41Pzwmc8qTJwU1y7VQe/preview", "video_thumb": "https://drive.google.com/thumbnail?id=11cXqPu6isE_bk41Pzwmc8qTJwU1y7VQe&sz=w800"}, "iam-p|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "skin02|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1VqAqpeumwEBXEfmettZuFlM4tu-3ky-2", "video_url": "", "video_thumb": ""}, "WordPuzzle|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Reviews|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "mood|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1TQ1wJSavRseiNbnCI_5Uoi5Nv_A5KWao/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1TQ1wJSavRseiNbnCI_5Uoi5Nv_A5KWao&sz=w800"}, "moveyourThumb|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1jmAz8uaTSlU_r7whr_3U-WDTcb4WXcd6/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1jmAz8uaTSlU_r7whr_3U-WDTcb4WXcd6&sz=w800"}, "Cat|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1WozUR6dkotTfMAnbOUhVmY6TbkVxCVGQ", "video_url": "", "video_thumb": ""}, "News|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1xr3XVd6iLl_9zsbUbKNRioJaRWF5aoIy", "video_url": "", "video_thumb": ""}, "orangeOvernightReset|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1nNqmTH82_GbwMsh3qNPoMJ12YlFkXa4m", "video_url": "", "video_thumb": ""}, "iam-short|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "best|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1wmGDeqykv-om-146MCAI29SWqIcZm-Xn/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1wmGDeqykv-om-146MCAI29SWqIcZm-Xn&sz=w800"}, "99|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1Ww-qGQVHvejORycBmJwx3adxOAiD_Ivw", "video_url": "", "video_thumb": ""}, "endsSoon2|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/11QXy5oAouxXF1cCdUHRwtO2cZRaJqoj2/preview", "video_thumb": "https://drive.google.com/thumbnail?id=11QXy5oAouxXF1cCdUHRwtO2cZRaJqoj2&sz=w800"}, "Daily|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "views|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1I55nwWgFR-xCM4rd9XLigras2mY9e0O_/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1I55nwWgFR-xCM4rd9XLigras2mY9e0O_&sz=w800"}, "1|Unknown": {"image_url": "", "video_url": "", "video_thumb": ""}, "ai01|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1cBMtN6bjf-RqR8PmSc-cOSATnpxFvr2C/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1cBMtN6bjf-RqR8PmSc-cOSATnpxFvr2C&sz=w800"}, "smoother|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1Ul6EiN7jKdgdw63V_X3_TwGETp-fm39d", "video_url": "", "video_thumb": ""}, "santa|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1hpyhgRgrcscvTlTLXLtNgV66Xv7ybsCU", "video_url": "", "video_thumb": ""}, "Chart|Lina": {"image_url": "https://lh3.googleusercontent.com/d/16K2Uqv0M0vnP8w5pmZALt_3yFbBouyoB", "video_url": "", "video_thumb": ""}, "LeeChaerRin|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/186B431vRuGLZm9bw6nc3bn7iPURjfCMu/preview", "video_thumb": "https://drive.google.com/thumbnail?id=186B431vRuGLZm9bw6nc3bn7iPURjfCMu&sz=w800"}, "skin01|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1JfNRpUVlTkdsU6ZmPD2EvZzYHTgQbAwZ", "video_url": "", "video_thumb": ""}, "lauren|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "JangEunseo|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/15wmNaRNEkhKOIO-YPJja-b5WLS2CNF3t/preview", "video_thumb": "https://drive.google.com/thumbnail?id=15wmNaRNEkhKOIO-YPJja-b5WLS2CNF3t&sz=w800"}, "99|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1Ww-qGQVHvejORycBmJwx3adxOAiD_Ivw", "video_url": "", "video_thumb": ""}, "vs|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1ph_TAXx2zzXKbOS_IKy0BBJ52sikbRKA", "video_url": "", "video_thumb": ""}, "OilWash|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1NLLA-5dJ22KJH5TvqNx2Yxec6-YBNkmD/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1NLLA-5dJ22KJH5TvqNx2Yxec6-YBNkmD&sz=w800"}, "kajakrol |stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "soybean|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1OAwJi9tf4eJ7mxYJ33xHIfNHeiUHrcro/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1OAwJi9tf4eJ7mxYJ33xHIfNHeiUHrcro&sz=w800"}, "psy|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "FastASMR|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "waterVsOil|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1C9Va5mY3G53vL61TX5eZ_8XgnsqmhjPe/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1C9Va5mY3G53vL61TX5eZ_8XgnsqmhjPe&sz=w800"}, "expiresMilkeydew|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1sEztCQJpjcSmFI2cwfRW9Y4mZfDVwt5E/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1sEztCQJpjcSmFI2cwfRW9Y4mZfDVwt5E&sz=w800"}, "916ba|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1blhHxFcFKT4Mvyz0GNaWjyj7V4skXBP0", "video_url": "", "video_thumb": ""}, "no1hashtag|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1EZTTQ2AHfXmkLTO0FnxuwVpnM0xrqRRf", "video_url": "", "video_thumb": ""}, "Calendar|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1mzb3RQQpxQV5vX_9D8sEYomYA3kyNsMG", "video_url": "", "video_thumb": ""}, "Magazine|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1BGmVXqPHEAMJF1-jRrwCqe8k9YHggMfu", "video_url": "", "video_thumb": ""}, "Hashtag|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1SPBzoa77MjvVysWtrcpe7geI1mDHcev3", "video_url": "", "video_thumb": ""}, "2|Unknown": {"image_url": "", "video_url": "", "video_thumb": ""}, "Game|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "newYear|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1ZSzl_QyEvc70m1TmujP9JtQW02Q7DA6Q", "video_url": "", "video_thumb": ""}, "DiscountSticker|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1tmR7tDvfJc4CsB22rL_yWb6mbaZwCmS6", "video_url": "", "video_thumb": ""}, "spring|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1oKr-5ArnXasbKKn_VqbxTnWzG4jgYdlW", "video_url": "", "video_thumb": ""}, "allureWinner|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1bqE90MxQoLfN2EViZhDKdpgd8V1Y5JYX", "video_url": "", "video_thumb": ""}, "ranked1|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1yrTX0lhtjH1N3OXsMohkt1_HH-3Gv1zH", "video_url": "", "video_thumb": ""}, "news02|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "NaturalOil|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1HL_SyBEUDv0_7lAAgldZwNfVu4nXCwPV/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1HL_SyBEUDv0_7lAAgldZwNfVu4nXCwPV&sz=w800"}, "ParkKyungran|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1zWJyUPBX8gffJ3dx79rvWJbadz3byIPR/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1zWJyUPBX8gffJ3dx79rvWJbadz3byIPR&sz=w800"}, "cleansingPower|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1GaRYJSjZg9z54SprnKkQ3397oY6lrZL4/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1GaRYJSjZg9z54SprnKkQ3397oY6lrZL4&sz=w800"}, "number1|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1rb074I2Z4xbh7pDkBZPVe8QrmKOCsut6/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1rb074I2Z4xbh7pDkBZPVe8QrmKOCsut6&sz=w800"}, "99percent|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "Flash|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/11mkHA841kqxndZk-uUEuVI99uow3EP5I/preview", "video_thumb": "https://drive.google.com/thumbnail?id=11mkHA841kqxndZk-uUEuVI99uow3EP5I&sz=w800"}, "RememberWhen|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Hashtag2|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1tQOySfmM6n_EW9qy7ZuKThHMPOy3CRmw", "video_url": "", "video_thumb": ""}, "BrokeText|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1i_xSlqgbIIb9OWDEYhbKqIoLrR7jLf9s", "video_url": "", "video_thumb": ""}, "LaurenZeroIrritation|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1N29uY_omnnTvE-fTNB0dC43PyeG0pmDI", "video_url": "", "video_thumb": ""}, "40|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Q4R2Jl3IS5L-Oz5Q6hDXCaJ8Ubyg7T_9/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Q4R2Jl3IS5L-Oz5Q6hDXCaJ8Ubyg7T_9&sz=w800"}, "justOneUse|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1fW9j4lAzJC_czfczr7g2wSnzy01_tZBi/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1fW9j4lAzJC_czfczr7g2wSnzy01_tZBi&sz=w800"}, "santaTree|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1w5kSZxeu3K6949yOHsmT9DLR7YawPdNq", "video_url": "", "video_thumb": ""}, "blueBanner|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Znp2rzLY5-JKp2haCOI6DJ9A-hzDZjwA/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Znp2rzLY5-JKp2haCOI6DJ9A-hzDZjwA&sz=w800"}, "expiresCherry|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1qqSzSPpOXYraMWNpnLYdSBodxicq3t0S/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1qqSzSPpOXYraMWNpnLYdSBodxicq3t0S&sz=w800"}, "PriceSticker|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "yellowBlack|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1tfWTUoTIYF57C6FFbmmbjISgASJaR6Yk/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1tfWTUoTIYF57C6FFbmmbjISgASJaR6Yk&sz=w800"}, "Stats|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1soheguTYsduC1-SN346vE5_j0y3dNDg2", "video_url": "", "video_thumb": ""}, "peelFirst|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1r14G41VfZDkOLH5OYHWnobh39EQmVvJe", "video_url": "https://drive.google.com/file/d/1MHHo6PzCXMoMIeLUg3wDFXDpNeKt-ncv/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1MHHo6PzCXMoMIeLUg3wDFXDpNeKt-ncv&sz=w800"}, "hydratingBanner|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1QPOR2HmdeQimlt54NpFZpwqJTbtEFXf3/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1QPOR2HmdeQimlt54NpFZpwqJTbtEFXf3&sz=w800"}, "pinkCart|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "KimHyunji|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1tzy5IU1GfUYEipNArd2vJtm3WTkYNBFG/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1tzy5IU1GfUYEipNArd2vJtm3WTkYNBFG&sz=w800"}, "amazon1|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1pwx1-lFT3H4JmQJkY_c6DKYNvKW4xJ-H", "video_url": "", "video_thumb": ""}, "RedOrangeYellow|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "smooth02|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Qq0Qfke_mmWhPzL5FOsZiYYmecS85KK7/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Qq0Qfke_mmWhPzL5FOsZiYYmecS85KK7&sz=w800"}, "PriceOff|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "gentle|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1wZ9cqVCkkB4x2c6jtnOeHMyANdV7SDcE/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1wZ9cqVCkkB4x2c6jtnOeHMyANdV7SDcE&sz=w800"}, "richCreamy|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1IpYd8mZMaFKHxAGO2MXo3nBf1ARGK_fn/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1IpYd8mZMaFKHxAGO2MXo3nBf1ARGK_fn&sz=w800"}, "thelipstickgirly1|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1r0d5CW_r07OSH9_Vdw6JOWktIyLoha4m/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1r0d5CW_r07OSH9_Vdw6JOWktIyLoha4m&sz=w800"}, "reviews|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1LHAL5XBigBL7qIdXzRzSEHT4zmbXKmQM", "video_url": "https://drive.google.com/file/d/1x5MmkHDC3DkZZ4e8vDzMu8V8h7M1-XRb/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1x5MmkHDC3DkZZ4e8vDzMu8V8h7M1-XRb&sz=w800"}, "daily|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "3WeeksB&A|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1lYnWRbaYBSdSFcXUYrKggnlXhInzX6RJ", "video_url": "", "video_thumb": ""}, "halo2|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1Qu2K7PEsf7cYPWXGHz-w-N8YhpbzxoV9", "video_url": "", "video_thumb": ""}, "harsh|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1yGb530PRJVhxcTrLvC9eXSNmRQnyx6vj/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1yGb530PRJVhxcTrLvC9eXSNmRQnyx6vj&sz=w800"}, "14|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Wj3nl2dvF5YYmMLmubXyCt8vSK5tURmb/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Wj3nl2dvF5YYmMLmubXyCt8vSK5tURmb&sz=w800"}, "power|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "pinkCartSpringSale|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "CreamStats|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1hvhmyp4lXi1nzzufAfc9t7t-7f3TYboe", "video_url": "", "video_thumb": ""}, "halo|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1Z46xTHGjZZaNic1cpYI6QiynmeNGkQf3", "video_url": "", "video_thumb": ""}, "rich|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "refined|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1lEQvvP6WLd5ZcbRYoWnhoTWA_Mm3lzgc/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1lEQvvP6WLd5ZcbRYoWnhoTWA_Mm3lzgc&sz=w800"}, "2026|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1TnBF1GSQhoXK3CH8e8WbzSzYx0vSCHAf/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1TnBF1GSQhoXK3CH8e8WbzSzYx0vSCHAf&sz=w800"}, "Model1|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1PHUZ2XLQNzrcD4cuTiML65_LhGOas4rn/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1PHUZ2XLQNzrcD4cuTiML65_LhGOas4rn&sz=w800"}, "armRemover|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1aAOifYXht8ygL6USU6OgXf_dI6LNgNFf/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1aAOifYXht8ygL6USU6OgXf_dI6LNgNFf&sz=w800"}, "Model2|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1YQfXw6Ix_Lw5stG7NfJ-Ovcu3Hkf4pju/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1YQfXw6Ix_Lw5stG7NfJ-Ovcu3Hkf4pju&sz=w800"}, "MonaLisa|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1k3mN4norep9QsY8NX_drsqiKgOitkJq8", "video_url": "", "video_thumb": ""}, "KimMisook|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/10mgZEGEu9V7eYzoHvO6AFco4TceBmbQl/preview", "video_thumb": "https://drive.google.com/thumbnail?id=10mgZEGEu9V7eYzoHvO6AFco4TceBmbQl&sz=w800"}, "Reveiw|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "Yet|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "pinkBasket|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "30|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1Y-SK9Pk1ylgZn0BmKHTdX12fRxbEtmzA", "video_url": "", "video_thumb": ""}, "non|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1xqIjWWPa8adu8D1OKuMBYS5SjO7xzA5f/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1xqIjWWPa8adu8D1OKuMBYS5SjO7xzA5f&sz=w800"}, "inOneBottle|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1knZc0UtNw6HHBAB1M8Td4_0UyQcZffyS/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1knZc0UtNw6HHBAB1M8Td4_0UyQcZffyS&sz=w800"}, "comingSoonBrown|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "EunjiJeon|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1P_lePL_3bivIuaRGmnOYjhSv6V2S2n0h/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1P_lePL_3bivIuaRGmnOYjhSv6V2S2n0h&sz=w800"}, "WordShuffle|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "7daysPointPurple|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1TSzYUE9eE2w6Pl-E35-HXOFQWteSOHfu", "video_url": "", "video_thumb": ""}, "Gentle|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "AIRedBanner|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1ujGuC5WmffXv07XVQysoEFDIBmIcJRHD", "video_url": "", "video_thumb": ""}, "VeenDiagram|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1vdNp-59MKzsisFRnZr9dhG5TYqTQ9eXy/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1vdNp-59MKzsisFRnZr9dhG5TYqTQ9eXy&sz=w800"}, "comingSoon|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "model|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1uzaukf0cdmH_x3BvvoobHho5FZuKPecd", "video_url": "", "video_thumb": ""}, "YeojinLee|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1ZynvfaRMgkj72zqqE2AvQbg8lZbC2wku/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1ZynvfaRMgkj72zqqE2AvQbg8lZbC2wku&sz=w800"}, "CleanseSale|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1nt9gRrMrHnH_w1ANlPyDXz4wiS2RzLtV/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1nt9gRrMrHnH_w1ANlPyDXz4wiS2RzLtV&sz=w800"}, "stocking|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/11lprGB_paC5NJdndP29aUWZXmlc_eFrz", "video_url": "", "video_thumb": ""}, "ReviewPrice|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1IdXGEK4LmZc_bcOQ9xQMu8UG-7cwj4oS", "video_url": "", "video_thumb": ""}, "pinkBigSpringSale|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1Ytr-DvRYWkFrgnqBOEWkafHWjxg-XAzP", "video_url": "", "video_thumb": ""}, "baB|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1DMjspKj4ghR-1e6pzTHouOAe5YE7JVwJ", "video_url": "", "video_thumb": ""}, "GirlMath|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Power|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "oneUse|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1e1fJ7xlv0ELfugCUh13KgYlQg2qG2WCU", "video_url": "", "video_thumb": ""}, "RippedPaper|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "LastPrice|Lina": {"image_url": "https://lh3.googleusercontent.com/d/12bzW4KT4fPihLH54zeoNSNFGp3YfvfoF", "video_url": "", "video_thumb": ""}, "iam-long|stella": {"image_url": "", "video_url": "", "video_thumb": ""}, "AIRedBannerSS|Lina": {"image_url": "https://lh3.googleusercontent.com/d/13EilDcglGB0NyfQ5Z9AmerOaW1zhhgC8", "video_url": "", "video_thumb": ""}, "no1Cat|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1W6nNIIJTeqHhIsAmNjRZK-b5WPnZ-daf", "video_url": "", "video_thumb": ""}, "Motion|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1VGI7nCA0wN87RIUf-wp8CEyTuKYa0PEW/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1VGI7nCA0wN87RIUf-wp8CEyTuKYa0PEW&sz=w800"}, "neonYellow|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1C-nSLj06GAhIq5AJoacUVDocqndL2foU", "video_url": "", "video_thumb": ""}, "ComingSoonB&A|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1soPadsNfwsvAXeSxJgKbZ4gI82cCvBGn", "video_url": "", "video_thumb": ""}, "000|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "endsSoon|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1YdDLd2gCrZptEYyAMgAPrLCOI_F-GX3k/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1YdDLd2gCrZptEYyAMgAPrLCOI_F-GX3k&sz=w800"}, "Ornament1-2|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1GWsv-uRP6nVlgB8iy1wGzji9WMTcaMXp", "video_url": "", "video_thumb": ""}, "uv2|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1z_qK2h35osQJ4NIBEIrsvdEIwqV7acT-/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1z_qK2h35osQJ4NIBEIrsvdEIwqV7acT-&sz=w800"}, "Gra banner|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1hEnkDNpBWVh9acMIaduQsUcrLek3M5nE/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1hEnkDNpBWVh9acMIaduQsUcrLek3M5nE&sz=w800"}, "Model3|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1tiYGlaj0_j5acc1OdnMGHzLLCJEaWPuC/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1tiYGlaj0_j5acc1OdnMGHzLLCJEaWPuC&sz=w800"}, "spa|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1krJdjGlHyPmko7H-BLpYKSloYep9JCSF", "video_url": "https://drive.google.com/file/d/10R7zZA4nQxxXO7mQXXOyZnkvathwYwUM/preview", "video_thumb": "https://drive.google.com/thumbnail?id=10R7zZA4nQxxXO7mQXXOyZnkvathwYwUM&sz=w800"}, "low|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1tBn_94Nu8weJx45mjS-D2X66EDJQ167g", "video_url": "", "video_thumb": ""}, "TeaTree&Soybean|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1yKQuRQDlrEsf612I8Pa18x8Xqjxpd46b/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1yKQuRQDlrEsf612I8Pa18x8Xqjxpd46b&sz=w800"}, "Review40|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1ocsuQ1nuT5K9LMULdIQJSjKBDwjRQ4NU", "video_url": "", "video_thumb": ""}, "Product&Video|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Yum_33FggCPsosP-52Ph74BFNR4okShK/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Yum_33FggCPsosP-52Ph74BFNR4okShK&sz=w800"}, "ScrubSale|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1GdeBVpnQE2cc24Uy6egPYyo4GcenUEZV/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1GdeBVpnQE2cc24Uy6egPYyo4GcenUEZV&sz=w800"}, "transparentBannerFeb58|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1X9LpTO-rpIGdlnhM0Bbe9TbLqJ6vQiEG/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1X9LpTO-rpIGdlnhM0Bbe9TbLqJ6vQiEG&sz=w800"}, "uv1|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1mPPib8gMxFixKeLFAa2N-W1K7cWeNrQ3/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1mPPib8gMxFixKeLFAa2N-W1K7cWeNrQ3&sz=w800"}, "BA02|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1rAKFU8uuibF8tAPu0452Vr8qQYd5uyWN", "video_url": "", "video_thumb": ""}, "Smooth03|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1ebfhE7MViewQEgeY4-lXt68nUzsfJM1F/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1ebfhE7MViewQEgeY4-lXt68nUzsfJM1F&sz=w800"}, "Helicopter|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1s4LI81P2HAe7Ma88pmZcj_kBtTXSj-KL/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1s4LI81P2HAe7Ma88pmZcj_kBtTXSj-KL&sz=w800"}, "circleText|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "DangDang|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1zAdoy6eN6f_EfS0GQdWm9fhZ8WMiCyfD", "video_url": "", "video_thumb": ""}, "3models|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/15AsLWcxFXcxF4lF_P65G0cQMT2Z4uuaQ/preview", "video_thumb": "https://drive.google.com/thumbnail?id=15AsLWcxFXcxF4lF_P65G0cQMT2Z4uuaQ&sz=w800"}, "orangeBannerFeb58|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1qIehWAXN10VLikNm5FPTlIvbMyVAsh4M/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1qIehWAXN10VLikNm5FPTlIvbMyVAsh4M&sz=w800"}, "Tryitout|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1zvILhjm_MjZ33nbp2-T8DmHooo8aLzt6/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1zvILhjm_MjZ33nbp2-T8DmHooo8aLzt6&sz=w800"}, "winter|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1CJ86fOpLI-U1aURy3mZn-9ozEq6Yrxch/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1CJ86fOpLI-U1aURy3mZn-9ozEq6Yrxch&sz=w800"}, "Valenprep|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1JdUGL4SxzA2mdGHDRqCEZntBIuM4VRLd/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1JdUGL4SxzA2mdGHDRqCEZntBIuM4VRLd&sz=w800"}, "refinedFeb58|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1b8_7KblJm10s7Xv4QJMRBYTDIvE7PYEg/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1b8_7KblJm10s7Xv4QJMRBYTDIvE7PYEg&sz=w800"}, "BannerB&A|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1c_Q6LN9IiHe30eXh16lrPDagh_dxHq1t", "video_url": "https://drive.google.com/file/d/1NAtXrk38eRbbEN4vDQDZCZrsJAqtKxfJ/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1NAtXrk38eRbbEN4vDQDZCZrsJAqtKxfJ&sz=w800"}, "bluesky|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1FH4JcZWdtJM9a0OuUgoN9AXtH_HYqnFt", "video_url": "", "video_thumb": ""}, "deep|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1sEoxEgrLMzra0qTYXAEjJUN7WGYJjImS", "video_url": "", "video_thumb": ""}, "B&ASlide|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1xzVcJKhlSSz6PBI7Pm4jBGX0uhiKE84a/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1xzVcJKhlSSz6PBI7Pm4jBGX0uhiKE84a&sz=w800"}, "Review|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Ornament2-1|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1ACOzLqLrtxRMi2PCoc2m6RMYwR-itF1M", "video_url": "", "video_thumb": ""}, "orangeBannerMilkeydew|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1vPA7j1WDEOTbnFkuEX29-h6-5zF2qK-5/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1vPA7j1WDEOTbnFkuEX29-h6-5zF2qK-5&sz=w800"}, "Warning|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1ccGReZPiXWS9V2NRI0AZ6oomyXYDwjq1/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1ccGReZPiXWS9V2NRI0AZ6oomyXYDwjq1&sz=w800"}, "baC|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/19yu5gdPtWo97SLoeP6BiiEM28jCosT5b", "video_url": "", "video_thumb": ""}, "endsToday|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1w2LT3eZIvVr-KP2MO0zH0Nwl7Z5VhLu7/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1w2LT3eZIvVr-KP2MO0zH0Nwl7Z5VhLu7&sz=w800"}, "Comment|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Ornament1-1|Lina": {"image_url": "https://lh3.googleusercontent.com/d/114A26apQGlSKxMFdqIx4D_4gcH0fQEJL", "video_url": "", "video_thumb": ""}, "neonBlue|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "Ornament2-2|Lina": {"image_url": "https://lh3.googleusercontent.com/d/16P9RQtwU5YdEKakMbwLlRbkCqfeSCG5D", "video_url": "", "video_thumb": ""}, "hyunjiKimBanner|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "skin03|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1J543_7QCn2p986sYluhHhcdUDPlodFIV", "video_url": "", "video_thumb": ""}, "sims_symbol|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "PopUp|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1xUs4Lh1grzda9u2ryJiLI1Uad3Yi54vB/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1xUs4Lh1grzda9u2ryJiLI1Uad3Yi54vB&sz=w800"}, "Texture|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "BabyButtReview|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1YjQluKA6bGvTM-8B23J641c7k0c-eYch", "video_url": "", "video_thumb": ""}, "spa|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1krJdjGlHyPmko7H-BLpYKSloYep9JCSF", "video_url": "https://drive.google.com/file/d/10R7zZA4nQxxXO7mQXXOyZnkvathwYwUM/preview", "video_thumb": "https://drive.google.com/thumbnail?id=10R7zZA4nQxxXO7mQXXOyZnkvathwYwUM&sz=w800"}, "Ingredients|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1DFz0joElqncneoIXN_A9kfLZEVxwWL_o", "video_url": "", "video_thumb": ""}, "Saving|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "popup|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1PhzfD1D1qxAePTzPFyVF77vELyDrrLdp/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1PhzfD1D1qxAePTzPFyVF77vELyDrrLdp&sz=w800"}, "refinedForSpring|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "Ribbon|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "presentDrop|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "single-99%|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "single-belt|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "endsToday2|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1xhMVQ1iyrfEtGatUkTZBkELO_oCFNfTk/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1xhMVQ1iyrfEtGatUkTZBkELO_oCFNfTk&sz=w800"}, "PopUp2|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Qor9VohS6hxS910EfRhuurYlvaG-IOZy/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Qor9VohS6hxS910EfRhuurYlvaG-IOZy&sz=w800"}, "ingredients|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/19VMCWh3DhN8SEc4Eg5dkRVIykyfTy0np", "video_url": "", "video_thumb": ""}, "USPIcon|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1GmBvwH9LOV4KAw7lYdXqxS5irV7Zzvpu", "video_url": "", "video_thumb": ""}, "20mSoldBlue|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1ZHaje243tPuenRbrhL-dwPvTKosZF3yL/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1ZHaje243tPuenRbrhL-dwPvTKosZF3yL&sz=w800"}, "purple7Days|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1LWeACMewR-Qdq6jmIa2SIT5iYDEy4swa", "video_url": "", "video_thumb": ""}, "Snow|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1dLAnvqm4N83NvkDoA6EDyYtRKoP_NcKM/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1dLAnvqm4N83NvkDoA6EDyYtRKoP_NcKM&sz=w800"}, "text|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Snowball|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "before25|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1XI-J5U1mAqkA2Q31Bs66P5cfGmCLMr4A/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1XI-J5U1mAqkA2Q31Bs66P5cfGmCLMr4A&sz=w800"}, "goMilk|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1g3sGfqW492BdboGDJEiIibLhZsOwocSv/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1g3sGfqW492BdboGDJEiIibLhZsOwocSv&sz=w800"}, "smallCherryBanner|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1HmEhlPZvdTYCI-kmgu_RK2kr4QdEKHEL/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1HmEhlPZvdTYCI-kmgu_RK2kr4QdEKHEL&sz=w800"}, "sims-symbol|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Santa|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "BurrBasket|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1Ebmcz0UIvMozPyUN-Voz8bxFViWExhlG", "video_url": "", "video_thumb": ""}, "Tree|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Search1-2|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1oYFRlXSPRRK2Kl_t-W5CTotXwIrUolg_/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1oYFRlXSPRRK2Kl_t-W5CTotXwIrUolg_&sz=w800"}, "saleba|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1aOv8RNAkRcs_9UfBq8A7IHVVQtROsaz5/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1aOv8RNAkRcs_9UfBq8A7IHVVQtROsaz5&sz=w800"}, "Search1-3|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1xRTGnNfs4Jk9TfMLKgqWlrebgdT2WXcu/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1xRTGnNfs4Jk9TfMLKgqWlrebgdT2WXcu&sz=w800"}, "formula|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "bigsale|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1TlNiwLPt_LP9MpV5roaINLSMiZBvZrlb/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1TlNiwLPt_LP9MpV5roaINLSMiZBvZrlb&sz=w800"}, "baA|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/114DB_5bBfUqHiYHRLDQDJpDzB9wn6MYF", "video_url": "", "video_thumb": ""}, "reviews|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1LHAL5XBigBL7qIdXzRzSEHT4zmbXKmQM", "video_url": "https://drive.google.com/file/d/1x5MmkHDC3DkZZ4e8vDzMu8V8h7M1-XRb/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1x5MmkHDC3DkZZ4e8vDzMu8V8h7M1-XRb&sz=w800"}, "4cutreview|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1mgdvgzXLqMAPKlLb6JJuIfPAC_haZApW/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1mgdvgzXLqMAPKlLb6JJuIfPAC_haZApW&sz=w800"}, "fingers1|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Model4|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/13a9yuCn_xj5GcZrFYzyU45OyeOSWMI1h/preview", "video_thumb": "https://drive.google.com/thumbnail?id=13a9yuCn_xj5GcZrFYzyU45OyeOSWMI1h&sz=w800"}, "valenglow|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/17i2ZJ9fVk7QBBddY82anr-0CAijJMbx-/preview", "video_thumb": "https://drive.google.com/thumbnail?id=17i2ZJ9fVk7QBBddY82anr-0CAijJMbx-&sz=w800"}, "Search2-4|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1b-5JV25b6MBzB_cWOlCcQMrV-GHpT0-V/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1b-5JV25b6MBzB_cWOlCcQMrV-GHpT0-V&sz=w800"}, "HersHis|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1JP3kO-V5VBUEr80beRciFVGMdx6_bj5k", "video_url": "", "video_thumb": ""}, "texture#1|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "DanglingRibbon|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "foam|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/11huC7KEDJaMLXP8a8E7xccnzLFGYRwff/preview", "video_thumb": "https://drive.google.com/thumbnail?id=11huC7KEDJaMLXP8a8E7xccnzLFGYRwff&sz=w800"}, "stickynote2|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "expiresPicky|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1hGpHvqNREImjtScgS9AuXWoUSr7SRrXM/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1hGpHvqNREImjtScgS9AuXWoUSr7SRrXM&sz=w800"}, "gangPriceDiscount|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1G6fkS1iUjjsLdb092j0ZToaIR4ONXwIo", "video_url": "", "video_thumb": ""}, "ZoomChance|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1AGE5pXw8kdKDrFX-NUTmdFMkfj5t58rx/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1AGE5pXw8kdKDrFX-NUTmdFMkfj5t58rx&sz=w800"}, "StickerCart|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1YpWIL4cgJI5w7gm_cdfMu_yuQLU4FaV6", "video_url": "", "video_thumb": ""}, "Search2-1|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/18P71-GlpWhZS3GOTseEEraowrApT8jsP/preview", "video_thumb": "https://drive.google.com/thumbnail?id=18P71-GlpWhZS3GOTseEEraowrApT8jsP&sz=w800"}, "before21|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1qbOOIMDJ5xEsPkWhP_q37qc6owrcu06I/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1qbOOIMDJ5xEsPkWhP_q37qc6owrcu06I&sz=w800"}, "5yrs|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1AgpKMDjoaxPHxJKWc575rAJ9t6VyrfB_", "video_url": "", "video_thumb": ""}, "baD|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/1SFf_H0QCv7EScTxuMDyXcwUnhxZIK44M", "video_url": "", "video_thumb": ""}, "UVSale|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1pbw93vXR3hjPaLBa3lG6qCjgwKcNoWKQ/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1pbw93vXR3hjPaLBa3lG6qCjgwKcNoWKQ&sz=w800"}, "Search1-4|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1pv7P2YRSsylpUjMr5jAM7h01Gct-Mngr/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1pv7P2YRSsylpUjMr5jAM7h01Gct-Mngr&sz=w800"}, "JeonSeungee|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "Search2-2|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/11_mX3_-8xTo96j9FgMrxIG0sFycjv7f3/preview", "video_thumb": "https://drive.google.com/thumbnail?id=11_mX3_-8xTo96j9FgMrxIG0sFycjv7f3&sz=w800"}, "everyday|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/11MF4eZZNi_3Mi3nht-34skaUqOMC5mce", "video_url": "", "video_thumb": ""}, "Allure|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1xA9pitioa2Qjt1ckXmrBn-WDZ31uiSeP/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1xA9pitioa2Qjt1ckXmrBn-WDZ31uiSeP&sz=w800"}, "Search2-3|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1PpTDw5Wt1Rr-JJoyMhyQjxiTT4T0ciUe/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1PpTDw5Wt1Rr-JJoyMhyQjxiTT4T0ciUe&sz=w800"}, "numberOneGlowing|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1fKHXNDOI4sG_lVEHg-XoCpnEi1uN9mIe", "video_url": "", "video_thumb": ""}, "Galac|Sarah": {"image_url": "https://lh3.googleusercontent.com/d/11CDBaz3NkIJRUpcEokKz3ztjbVupUZ6o", "video_url": "", "video_thumb": ""}, "numberOne|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "OilSale|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1usL8FVnv3zi--rFMSLDtgxfAEeOjcFK_/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1usL8FVnv3zi--rFMSLDtgxfAEeOjcFK_&sz=w800"}, "orangeBannerCherry|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/13DKqqux10USp5KPs10jN5vQbVWwWEkf8/preview", "video_thumb": "https://drive.google.com/thumbnail?id=13DKqqux10USp5KPs10jN5vQbVWwWEkf8&sz=w800"}, "CutoutSaleF|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1lQhkHw7zY4DtPJyXSLoJgNSDvyrYx_r3/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1lQhkHw7zY4DtPJyXSLoJgNSDvyrYx_r3&sz=w800"}, "PatchStats|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1aXaYbl-nJuT1vN7U-ClW3RHPbBBzEJhh", "video_url": "", "video_thumb": ""}, "BFvariPink|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1w-wC-2BPWzwj04pL2cc944MABq7Elqau", "video_url": "", "video_thumb": ""}, "endstoday02|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1BmDwnIRb_AgWfjSmUURUO3KFw0MDE61b/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1BmDwnIRb_AgWfjSmUURUO3KFw0MDE61b&sz=w800"}, "1in4koreans|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1QO8LKbfFCCs5UeCs0JLWSYDl6LHO50Io", "video_url": "", "video_thumb": ""}, "ModelReview|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1t14cINNP9kEvCnXvUfmhcMkbC-cx4sfl", "video_url": "", "video_thumb": ""}, "oy|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1oS8-dDw34dLM_sYKybxmhNiKGr6hZDyR", "video_url": "", "video_thumb": ""}, "fingers2|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "Reserve|Lina": {"image_url": "https://lh3.googleusercontent.com/d/18omQnoyxgUPNjOhd04AhbFRjnOH2oMm2", "video_url": "", "video_thumb": ""}, "27|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Czk3-YeLy2qy4sndJ9CuPpTQXkTzSrcJ/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Czk3-YeLy2qy4sndJ9CuPpTQXkTzSrcJ&sz=w800"}, "endingSoon|Phoebe": {"image_url": "https://lh3.googleusercontent.com/d/1pLGpDmh-p5d4TFHdVGIGMo1CBQN36bn7", "video_url": "", "video_thumb": ""}, "7WeeksB&A|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1crZsP3wrgEzqyiElKIxGQHpLrJR1862m", "video_url": "", "video_thumb": ""}, "Search1-1|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1pbjvRL9wdV1V5-AGncSH9I6Vmom4zhZk/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1pbjvRL9wdV1V5-AGncSH9I6Vmom4zhZk&sz=w800"}, "christmasTree|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "valen01|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1NqgOc2ggxV3XGtybxwFg1OysugdssM-_/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1NqgOc2ggxV3XGtybxwFg1OysugdssM-_&sz=w800"}, "CutoutSaleM|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1F26QAALhjk_s2TZ4grXjPMPEX-wafrjB/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1F26QAALhjk_s2TZ4grXjPMPEX-wafrjB&sz=w800"}, "news03|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "milkydewASMRbanner|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1Ms9D_ENeaqAaAr02oAB3I_VEANXaqkGG/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1Ms9D_ENeaqAaAr02oAB3I_VEANXaqkGG&sz=w800"}, "SaleLipstickGirlie2|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1SbpNz-uJO-L2gqwBb-VhPtEYPa_ETI95/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1SbpNz-uJO-L2gqwBb-VhPtEYPa_ETI95&sz=w800"}, "ParkSieun|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "glowy|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1BHh58bPjKTaSMGPiyc18b_6VrlpPtsBj/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1BHh58bPjKTaSMGPiyc18b_6VrlpPtsBj&sz=w800"}, "hands|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "makeupbystellabanner|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1qb5wIX2s81HTR3G_hkqfO8jOTSc3R2Y8/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1qb5wIX2s81HTR3G_hkqfO8jOTSc3R2Y8&sz=w800"}, "prep|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/10xwjyRzJJvCEiWlDCAqB-DiPdoYJ6uiH/preview", "video_thumb": "https://drive.google.com/thumbnail?id=10xwjyRzJJvCEiWlDCAqB-DiPdoYJ6uiH&sz=w800"}, "milkydewbanner|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1E8jwcZ88UJimjYO3lmWlIrsnCyKBJjTR/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1E8jwcZ88UJimjYO3lmWlIrsnCyKBJjTR&sz=w800"}, "Problem&Solution|Lina": {"image_url": "https://lh3.googleusercontent.com/d/1VDmVBdKjA-CdwcCDbZeLBPO9i_4QKIYs", "video_url": "", "video_thumb": ""}, "reviewConfidential|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1-Q0UVrUEtm8n1JUDSEhgi3Z471iq-47l/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1-Q0UVrUEtm8n1JUDSEhgi3Z471iq-47l&sz=w800"}, "KimBobae|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "GalacvsMoney|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/12cHM1lOG3jxDLgJNFLkiuMp4PWSrEuHU/preview", "video_thumb": "https://drive.google.com/thumbnail?id=12cHM1lOG3jxDLgJNFLkiuMp4PWSrEuHU&sz=w800"}, "wouldyou|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "endstoday01|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/1iC9fVxxpTcgESiqKe0kBoceIaTxheFhr/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1iC9fVxxpTcgESiqKe0kBoceIaTxheFhr&sz=w800"}, "Race|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}, "KimSeonyoung|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1nSopec6h4h2n3YdR_3kGAtZLb55rzrUv/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1nSopec6h4h2n3YdR_3kGAtZLb55rzrUv&sz=w800"}, "moood|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "Deserve|Lina": {"image_url": "https://lh3.googleusercontent.com/d/16PN1X1sCLMUC7QXlZh7bt_ip7b90_1kG", "video_url": "", "video_thumb": ""}, "LastDayFlip|Lina": {"image_url": "", "video_url": "https://drive.google.com/file/d/1_Z8_vHlMWNSytpKN4COOgTje1s4spMxN/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1_Z8_vHlMWNSytpKN4COOgTje1s4spMxN&sz=w800"}, "LeeHyuna|Phoebe": {"image_url": "", "video_url": "", "video_thumb": ""}, "news01|Sarah": {"image_url": "", "video_url": "", "video_thumb": ""}, "blackheadsCancelled|Phoebe": {"image_url": "", "video_url": "https://drive.google.com/file/d/1lgFzjOxKTTusGDI9es93hNeYJQ1S9pN9/preview", "video_thumb": "https://drive.google.com/thumbnail?id=1lgFzjOxKTTusGDI9es93hNeYJQ1S9pN9&sz=w800"}, "ba gif|Sarah": {"image_url": "", "video_url": "https://drive.google.com/file/d/17Ig9-ZArgYcgt2Yc8CcwURsBQ0zmnGbh/preview", "video_thumb": "https://drive.google.com/thumbnail?id=17Ig9-ZArgYcgt2Yc8CcwURsBQ0zmnGbh&sz=w800"}, "stickynote1|Lina": {"image_url": "", "video_url": "", "video_thumb": ""}};
+</script>
+<script>
 const API = 'https://script.google.com/macros/s/AKfycbx_-aj6U_5eLs0vVI8IUHmrUmEPW8kY7zVWKpb8S3bhMphABRnTH91Y2QT9PBWEXgKr/exec';
 const SHEETS = {
-  metaRaw:     '\uba54\ud0c0 \uc18c\uc7ac\ubcc4_raw',
-  metaHist:    '\uba54\ud0c0 raw_hist',
-  amzRaw:      '\uc544\ub9c8\uc874 raw',
-  amzHist:     '\uc544\ub9c8\uc874 raw_hist',
+  meta: {
+    '2025-12': '\uba54\ud0c0_2025-12',
+    '2026-01': '\uba54\ud0c0_2026-01',
+    '2026-02': '\uba54\ud0c0_2026-02',
+    '2026-03': '\uba54\ud0c0 \uc18c\uc7ac\ubcc4_raw',
+  },
+  amz: {
+    '2025-12': '\uc544\ub9c8\uc874_2025-12',
+    '2026-01': '\uc544\ub9c8\uc874_2026-01',
+    '2026-02': '\uc544\ub9c8\uc874_2026-02',
+    '2026-03': '\uc544\ub9c8\uc874 raw',
+  },
 };
+const MONTHS = ['2025-12','2026-01','2026-02','2026-03'];
+const MONTH_LABELS = {'2025-12':'Dec 2025','2026-01':'Jan 2026','2026-02':'Feb 2026','2026-03':'Mar 2026'};
+const ASSETS = window.__ASSETS__;
 
 const CC = {Phoebe:'#D4537E', Sarah:'#1D9E75', Lina:'#378ADD', stella:'#8B5CF6', Unknown:'#888780'};
 const CREATORS = ['Phoebe','Sarah','Lina','stella'];
 
-// ── STATE ──────────────────────────────────────────────────────────────────
-let RAW = [];        // all parsed daily rows: {date, creator, media_type, ad_type, product, ad_name, impressions, link_clicks, spend}
-let CREATIVES = [];  // creative-level aggregated with purchases + daily
+// RAW rows shape: {date, month, isHist, creator, media_type, ad_type, product, ad_name, impressions, link_clicks, spend}
+let RAW_MARCH = [];  // all daily rows combined
+let RAW_HIST  = [];  // unused
+let RAW_BY_MONTH = {};  // {month -> rows}
+let AMZ_MAP   = {};  // {ad_name|creator -> {purchases, atc, dpv}}
 
-let filters  = {creator:'ALL', media:'ALL', product:'ALL'};
+let filters     = {creator:'ALL', media:'ALL', product:'ALL'};
 let activeMonth = 'ALL'; // 'ALL' | '2025-12' | '2026-01' | '2026-02' | '2026-03'
 let trendMetric = 'ctr', rankMetric = 'spend';
 let bdMetric    = {creator:'spend', media:'spend', product:'spend'};
@@ -344,7 +371,7 @@ let charts = {};
 // ── LOADING ────────────────────────────────────────────────────────────────
 function showLoading(msg) {
   document.getElementById('loading-overlay').style.display = 'flex';
-  document.getElementById('loading-msg').textContent = msg || '데이터 불러오는 중...';
+  document.getElementById('loading-msg').textContent = msg;
 }
 function hideLoading() {
   document.getElementById('loading-overlay').style.display = 'none';
@@ -352,135 +379,128 @@ function hideLoading() {
 
 // ── FETCH ──────────────────────────────────────────────────────────────────
 async function fetchSheet(name) {
-  const url = API + '?sheet=' + encodeURIComponent(name);
-  const res = await fetch(url);
+  const res = await fetch(API + '?sheet=' + encodeURIComponent(name));
   return res.json();
 }
 
 // ── PARSE helpers ──────────────────────────────────────────────────────────
-function parseCreativeName(name) {
-  const parts = String(name).split('_');
-  if (parts.length >= 8) {
-    let creator = parts[7].trim();
-    if (creator.toLowerCase() === 'phoebe') creator = 'Phoebe';
-    return {
-      creator,
-      media_type: parts[5],
-      ad_type:    parts[3],
-      product:    parts[4] === 'BPD' ? 'BCA' : parts[4],
-      ad_name:    parts[6],
-    };
-  }
-  return null;
+function parseCreativeName(raw) {
+  const name = String(raw || '').trim();
+  const parts = name.split('_');
+  if (parts.length < 7) return null;
+  // Find media index
+  const mi = parts.findIndex(p => p === 'vdo' || p === 'img');
+  if (mi < 0 || mi + 2 > parts.length) return null;
+  let creator = parts[parts.length - 1].trim();
+  if (creator.toLowerCase() === 'phoebe') creator = 'Phoebe';
+  if (!['Phoebe','Sarah','Lina','stella'].includes(creator)) return null;
+  return {
+    creator,
+    media_type: parts[mi],
+    ad_type:    parts[mi - 2] || 'Unknown',
+    product:    (parts[mi - 1] === 'BPD' ? 'BCA' : parts[mi - 1]) || 'Unknown',
+    ad_name:    parts[mi + 1] || '',
+  };
 }
 
-function toDate(v) {
-  if (!v) return '';
-  if (typeof v === 'string') return v.slice(0, 10);
-  // Google Sheets Date object comes as serial number or JS Date
-  if (v instanceof Date) return v.toISOString().slice(0, 10);
-  return String(v).slice(0, 10);
+function numVal(v) {
+  if (!v && v !== 0) return 0;
+  return Number(String(v).replace(/,/g, '')) || 0;
 }
 
-// ── PARSE META RAW (daily, March) ─────────────────────────────────────────
-// Headers: 일자, 캠페인명, 광고세트명, 소재명, 소재이미지, 노출, 클릭(전체), CTR(전체), CPC(전체), 광고비, 링크클릭, CTR(링크), CPC(링크), CPM, 빈도
-function parseMetaRaw(rows) {
-  const headers = rows[0].map(h => String(h).trim());
-  const idxDate = 0, idxName = 3, idxImp = 5, idxLc = 10, idxSpend = 9;
-  const results = [];
-  for (let i = 1; i < rows.length; i++) {
+// ── PARSE MARCH (daily) ─────────────────────────────────────────────────────
+// Row: 일자(0), 캠페인명(1), 광고세트명(2), 소재명(3), 소재이미지(4),
+//      노출(5), 클릭전체(6), CTR전체(7), CPC전체(8), 광고비(9),
+//      링크클릭(10), CTR링크(11), CPC링크(12), CPM(13), 빈도(14)
+function parseMarchRows(rows) {
+  const out = [];
+  // skip first blank row + header row (rows[0] is blank, rows[1] is header)
+  const start = rows[0][0] ? 1 : 2;
+  for (let i = start; i < rows.length; i++) {
     const r = rows[i];
-    if (!r[idxName]) continue;
-    const p = parseCreativeName(r[idxName]);
+    const dateRaw = r[0];
+    if (!dateRaw) continue;
+    const date = typeof dateRaw === 'string' ? dateRaw.slice(0,10)
+      : dateRaw instanceof Date ? dateRaw.toISOString().slice(0,10)
+      : String(dateRaw).slice(0,10);
+    if (!date.match(/^\d{4}-\d{2}-\d{2}/)) continue;
+    const p = parseCreativeName(r[3]);
     if (!p) continue;
-    results.push({
-      date:        toDate(r[idxDate]),
-      creator:     p.creator,
-      media_type:  p.media_type,
-      ad_type:     p.ad_type,
-      product:     p.product,
-      ad_name:     p.ad_name,
-      impressions: Number(r[idxImp])  || 0,
-      link_clicks: Number(r[idxLc])   || 0,
-      spend:       Number(r[idxSpend])|| 0,
+    out.push({
+      date, month: date.slice(0,7), isHist: false,
+      ...p,
+      impressions: numVal(r[5]),
+      link_clicks: numVal(r[10]),
+      spend:       numVal(r[9]),
     });
   }
-  return results;
+  return out;
 }
 
-// ── PARSE META HIST (monthly aggregate, Dec-Feb) ────────────────────────────
-// Headers: 캠페인 이름, 광고 세트 이름, 광고 이름, 도달, 빈도, 노출, 결과유형, 결과, 클릭(전체), 지출금액(KRW), 링크클릭, CPM, CPC(링크), CTR(전체), 보고시작, 보고종료
-function parseMetaHist(rows) {
-  const results = [];
+// ── PARSE HIST (Dec-Feb aggregate) ─────────────────────────────────────────
+// Row: 캠페인이름(0), 광고세트이름(1), 광고이름(2), 도달(3), 빈도(4),
+//      노출(5), 결과유형(6), 결과(7), 클릭전체(8), 지출금액KRW(9),
+//      링크클릭(10), CPM(11), CPC링크(12), CTR전체(13), 보고시작(14), 보고종료(15)
+function parseHistRows(rows) {
+  const out = [];
+  // rows[0] is header; rows[1] is grand total row (no 광고이름) — skip
   for (let i = 1; i < rows.length; i++) {
     const r = rows[i];
     const adName = r[2];
-    if (!adName) continue;
+    if (!adName) continue; // skip grand total rows
     const p = parseCreativeName(adName);
     if (!p) continue;
-    const dateStart = toDate(r[14]);
-    const month = dateStart.slice(0, 7); // e.g. "2025-12"
-    results.push({
-      date:        dateStart, // use report start as date key for month grouping
-      month,
-      creator:     p.creator,
-      media_type:  p.media_type,
-      ad_type:     p.ad_type,
-      product:     p.product,
-      ad_name:     p.ad_name,
-      impressions: Number(r[5])  || 0,
-      link_clicks: Number(r[10]) || 0,
-      spend:       Number(String(r[9]).replace(/,/g,'')) || 0,
+    out.push({
+      date: '2026-02-28', month: 'hist', isHist: true,  // label as hist
+      ...p,
+      impressions: numVal(r[5]),
+      link_clicks: numVal(r[10]),
+      spend:       numVal(r[9]),
     });
   }
-  return results;
+  return out;
 }
 
-// ── PARSE AMAZON RAW (daily) ───────────────────────────────────────────────
-// Headers: (empty), 일자, 소재명, Click-throughs, Total DPV, Total ATC, Total purchases
-function parseAmzRaw(rows) {
+// ── PARSE AMAZON ────────────────────────────────────────────────────────────
+// Row: empty(0), 일자(1), 소재명(2), Click-throughs(3), Total DPV(4), Total ATC(5), Total purchases(6)
+function parseAmzRows(rows) {
   const map = {};
-  for (let i = 1; i < rows.length; i++) {
+  const hi = rows.findIndex(r => String(r[1]||'').includes('\uc77c\uc790') || String(r[2]||'').includes('\uc18c\uc7ac'));
+  const start = hi >= 0 ? hi + 1 : 1;
+  for (let i = start; i < rows.length; i++) {
     const r = rows[i];
-    const name = r[2]; if (!name) continue;
-    const parts = String(name).split('_');
-    try {
-      const mi = parts.findIndex(p => p === 'vdo' || p === 'img');
-      if (mi < 0) continue;
-      const ad_name = parts[mi + 1] || '';
-      let creator = parts[parts.length - 1].trim();
-      if (creator.toLowerCase() === 'phoebe') creator = 'Phoebe';
-      const key = ad_name + '|' + creator;
-      if (!map[key]) map[key] = {ad_name, creator, purchases:0, atc:0, dpv:0};
-      map[key].purchases += Number(r[6]) || 0;
-      map[key].atc       += Number(r[5]) || 0;
-      map[key].dpv       += Number(r[4]) || 0;
-    } catch(e) {}
+    const name = String(r[2]||'').trim();
+    if (!name) continue;
+    const parts = name.split('_');
+    const mi = parts.findIndex(p => p === 'vdo' || p === 'img');
+    if (mi < 0) continue;
+    const ad_name = parts[mi+1] || '';
+    let creator = parts[parts.length-1].trim();
+    if (creator.toLowerCase() === 'phoebe') creator = 'Phoebe';
+    const key = ad_name + '|' + creator;
+    if (!map[key]) map[key] = {purchases:0, atc:0, dpv:0};
+    map[key].purchases += numVal(r[6]);
+    map[key].atc       += numVal(r[5]);
+    map[key].dpv       += numVal(r[4]);
   }
   return map;
 }
 
-// same structure for hist
-function parseAmzHist(rows) {
-  return parseAmzRaw(rows); // same format
-}
-
 // ── BUILD CREATIVES ────────────────────────────────────────────────────────
-function buildCreatives(rawRows, amzMap) {
-  // aggregate raw rows by (ad_name, creator)
+function buildCreatives(rawRows) {
   const cmap = {};
   rawRows.forEach(r => {
     const key = r.ad_name + '|' + r.creator;
     if (!cmap[key]) cmap[key] = {
-      ad_name: r.ad_name, creator: r.creator,
-      media_type: r.media_type, ad_type: r.ad_type, product: r.product,
-      spend:0, link_clicks:0, impressions:0, daily: {}
+      ad_name:r.ad_name, creator:r.creator,
+      media_type:r.media_type, ad_type:r.ad_type, product:r.product,
+      spend:0, link_clicks:0, impressions:0, daily:{},
     };
     const c = cmap[key];
     c.spend       += r.spend;
     c.link_clicks += r.link_clicks;
     c.impressions += r.impressions;
-    if (r.date && r.date.startsWith('2026-03')) { // only March has daily detail
+    if (!r.isHist) {
       if (!c.daily[r.date]) c.daily[r.date] = {spend:0, lc:0, imp:0};
       c.daily[r.date].spend += r.spend;
       c.daily[r.date].lc    += r.link_clicks;
@@ -489,172 +509,152 @@ function buildCreatives(rawRows, amzMap) {
   });
 
   return Object.values(cmap).map(c => {
-    const av = amzMap[c.ad_name + '|' + c.creator] || {purchases:0, atc:0, dpv:0};
-    const imp = c.impressions, lc = c.link_clicks, sp = c.spend, pur = av.purchases;
+    const av  = AMZ_MAP[c.ad_name+'|'+c.creator] || {purchases:0,atc:0,dpv:0};
+    const ast = ASSETS[c.ad_name+'|'+c.creator]  || {image_url:'',video_url:'',video_thumb:''};
+    const lc=c.link_clicks, imp=c.impressions, sp=c.spend, pur=av.purchases;
     return {
-      ...c,
-      purchases: pur,
-      atc:       av.atc,
-      dpv:       av.dpv,
-      ctr:       imp > 0 ? lc / imp * 100 : 0,
-      cpc:       lc  > 0 ? sp / lc        : 0,
-      cpa:       pur > 0 ? sp / pur        : 0,
-      image_url:  '',
-      video_url:  '',
-      video_thumb:'',
+      ...c, ...av, ...ast,
+      ctr: imp>0?lc/imp*100:0,
+      cpc: lc>0?sp/lc:0,
+      cpa: pur>0?sp/pur:0,
     };
   }).sort((a,b) => b.spend - a.spend);
 }
 
-// ── INIT / LOAD ────────────────────────────────────────────────────────────
+// ── LOAD ────────────────────────────────────────────────────────────────────
 async function loadData() {
-  showLoading('시트 데이터 불러오는 중...');
+  showLoading('\uc2dc\ud2b8 \ub370\uc774\ud130 \ubd88\ub7ec\uc624\ub294 \uc911...');
   try {
-    showLoading('메타 3월 데이터 로딩...');
-    const [metaRawData, metaHistData, amzRawData, amzHistData] = await Promise.all([
-      fetchSheet(SHEETS.metaRaw),
-      fetchSheet(SHEETS.metaHist),
-      fetchSheet(SHEETS.amzRaw),
-      fetchSheet(SHEETS.amzHist),
-    ]);
+    // Fetch all months in parallel
+    const metaResults = await Promise.all(MONTHS.map(m => fetchSheet(SHEETS.meta[m])));
+    const amzResults  = await Promise.all(MONTHS.map(m => fetchSheet(SHEETS.amz[m])));
 
-    showLoading('파싱 중...');
-    const march    = parseMetaRaw(metaRawData);
-    const hist     = parseMetaHist(metaHistData);
-    RAW = [...hist, ...march]; // all rows combined
+    showLoading('\ud30c\uc2f1 \uc911...');
 
-    const amzMarch = parseAmzRaw(amzRawData);
-    const amzHist  = parseAmzHist(amzHistData);
-    // merge amazon maps
-    const amzAll = {...amzHist};
-    Object.entries(amzMarch).forEach(([k,v]) => {
-      if (amzAll[k]) { amzAll[k].purchases += v.purchases; amzAll[k].atc += v.atc; amzAll[k].dpv += v.dpv; }
-      else amzAll[k] = v;
+    // Parse all meta sheets — all use same march format (일자 col0, 소재명 col3)
+    RAW_BY_MONTH = {};
+    MONTHS.forEach((m, i) => {
+      RAW_BY_MONTH[m] = parseMarchRows(metaResults[i]);
+    });
+    // Combine all into flat array
+    RAW_MARCH = MONTHS.flatMap(m => RAW_BY_MONTH[m]);
+    RAW_HIST  = []; // no longer used
+
+    // Parse amazon
+    AMZ_MAP = {};
+    MONTHS.forEach((m, i) => {
+      const monthly = parseAmzRows(amzResults[i]);
+      Object.entries(monthly).forEach(([k,v]) => {
+        if (AMZ_MAP[k]) { AMZ_MAP[k].purchases+=v.purchases; AMZ_MAP[k].atc+=v.atc; AMZ_MAP[k].dpv+=v.dpv; }
+        else AMZ_MAP[k] = {...v};
+      });
     });
 
-    CREATIVES = buildCreatives(RAW, amzAll);
+    console.log('Total rows:', RAW_MARCH.length, 'by month:', Object.fromEntries(MONTHS.map(m=>[m, RAW_BY_MONTH[m].length])));
     initProducts();
-    updateDateRange();
     renderOverview();
     render_creative();
+    document.getElementById('pg-sub').textContent = 'Dec 2025 ~ Mar 2026 \u00b7 Meta Ads';
     hideLoading();
   } catch(e) {
-    document.getElementById('loading-msg').textContent = '오류: ' + e.message + ' — 잠시 후 다시 시도해주세요.';
+    document.getElementById('loading-msg').textContent = '\uc624\ub958: ' + e.message;
     console.error(e);
   }
 }
 
-// ── DATE FILTER ────────────────────────────────────────────────────────────
-function setMonth(m, el) {
-  activeMonth = m;
-  document.querySelectorAll('.mpill').forEach(b => b.classList.remove('active'));
-  if (el) el.classList.add('active');
-  gridPage = 1; tblPage = 1;
-  renderOverview();
-  render_creative();
+// ── FILTER HELPERS ─────────────────────────────────────────────────────────
+function activeRaw() {
+  const rows = activeMonth === 'ALL'
+    ? RAW_MARCH
+    : (RAW_BY_MONTH[activeMonth] || []);
+  return rows.filter(r =>
+    (filters.creator==='ALL' || r.creator===filters.creator) &&
+    (filters.media==='ALL'   || r.media_type===filters.media) &&
+    (filters.product==='ALL' || r.product===filters.product)
+  );
 }
 
-function filteredRaw() {
-  return RAW.filter(r => {
-    if (activeMonth !== 'ALL' && !r.date.startsWith(activeMonth)) return false;
-    if (filters.creator !== 'ALL' && r.creator !== filters.creator) return false;
-    if (filters.media   !== 'ALL' && r.media_type !== filters.media) return false;
-    if (filters.product !== 'ALL' && r.product !== filters.product) return false;
-    return true;
-  });
-}
-
-function filteredCreatives() {
+function activeCreatives() {
   const sm = document.getElementById('sort-by').value;
-  // filter creatives based on activeMonth + filters
-  // For creatives, we need to re-aggregate from RAW for the selected period
-  const rawF = filteredRaw();
-  const amzAll = {}; // rebuild from CREATIVES (purchases already aggregated total)
-  CREATIVES.forEach(c => { amzAll[c.ad_name+'|'+c.creator] = {purchases:c.purchases, atc:c.atc, dpv:c.dpv}; });
-  let d = buildCreatives(rawF, amzAll);
-  if (filters.creator !== 'ALL') d = d.filter(c => c.creator === filters.creator);
-  if (filters.media   !== 'ALL') d = d.filter(c => c.media_type === filters.media);
-  if (filters.product !== 'ALL') d = d.filter(c => c.product === filters.product);
+  let d = buildCreatives(activeRaw());
   d.sort((a,b) => (sm==='cpc'||sm==='cpa') ? a[sm]-b[sm] : b[sm]-a[sm]);
   return d;
 }
 
-function updateDateRange() {
-  const dates = [...new Set(RAW.filter(r => r.date).map(r => r.date.slice(0,7)))].sort();
-  document.getElementById('pg-sub').textContent =
-    (dates[0]||'') + ' ~ ' + (dates[dates.length-1]||'') + ' · Meta Ads 소재별 성과';
-}
-
-// ── NAVIGATION ─────────────────────────────────────────────────────────────
+// ── NAV ─────────────────────────────────────────────────────────────────────
 function goPage(id, el) {
-  document.querySelectorAll('.pg').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.pg').forEach(p=>p.classList.remove('active'));
   document.getElementById('pg-'+id).classList.add('active');
-  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
   el.classList.add('active');
-  if (id === 'overview') renderOverview();
-  if (id === 'creative') render_creative();
+  if(id==='overview') renderOverview();
+  if(id==='creative') render_creative();
 }
 
 function setFilter(key, val, el) {
-  filters[key] = val;
-  document.querySelectorAll('[data-f="'+key+'"]').forEach(b => b.classList.remove('active'));
+  filters[key]=val;
+  document.querySelectorAll('[data-f="'+key+'"]').forEach(b=>b.classList.remove('active'));
   el.classList.add('active');
-  gridPage = 1; tblPage = 1;
-  renderOverview();
-  render_creative();
+  gridPage=1; tblPage=1;
+  renderOverview(); render_creative();
+}
+
+function setMonth(m, el) {
+  activeMonth=m;
+  document.querySelectorAll('.mpill').forEach(b=>b.classList.remove('active'));
+  if(el) el.classList.add('active');
+  gridPage=1; tblPage=1;
+  renderOverview(); render_creative();
 }
 
 function initProducts() {
-  const prods = [...new Set(CREATIVES.map(c=>c.product).filter(p=>p&&p!=='Unknown'))].sort();
+  const all = buildCreatives([...RAW_HIST,...RAW_MARCH]);
+  const prods = [...new Set(all.map(c=>c.product).filter(p=>p&&p!=='Unknown'))].sort();
   const container = document.getElementById('product-pills');
-  container.innerHTML = '';
-  prods.forEach(p => {
-    const btn = document.createElement('button');
-    btn.className = 'pill'; btn.dataset.f = 'product'; btn.dataset.v = p; btn.textContent = p;
-    btn.onclick = () => setFilter('product', p, btn);
+  container.innerHTML='';
+  prods.forEach(p=>{
+    const btn=document.createElement('button');
+    btn.className='pill'; btn.dataset.f='product'; btn.dataset.v=p; btn.textContent=p;
+    btn.onclick=()=>setFilter('product',p,btn);
     container.appendChild(btn);
   });
 }
 
-// ── OVERVIEW ───────────────────────────────────────────────────────────────
+// ── OVERVIEW ────────────────────────────────────────────────────────────────
 function renderOverview() {
-  const data = filteredRaw();
+  const data=activeRaw();
   renderCreatorCards(data);
   renderTrend(data);
   renderBarCharts(data);
 }
 
 function renderCreatorCards(data) {
-  const byC = {};
-  CREATORS.forEach(n => byC[n] = {spend:0,lc:0,imp:0,vdo:{spend:0,lc:0,imp:0},img:{spend:0,lc:0,imp:0}});
-  data.forEach(r => {
+  const byC={};
+  CREATORS.forEach(n=>byC[n]={spend:0,lc:0,imp:0,vdo:{spend:0,lc:0,imp:0},img:{spend:0,lc:0,imp:0}});
+  data.forEach(r=>{
     const c=r.creator; if(!byC[c]) return;
     byC[c].spend+=r.spend; byC[c].lc+=r.link_clicks; byC[c].imp+=r.impressions;
     const mt=r.media_type; if(byC[c][mt]){byC[c][mt].spend+=r.spend;byC[c][mt].lc+=r.link_clicks;byC[c][mt].imp+=r.impressions;}
   });
-  const purByC = {};
-  CREATIVES.forEach(c => { purByC[c.creator]=(purByC[c.creator]||0)+c.purchases; });
-
-  const grid = document.getElementById('creator-grid');
-  grid.innerHTML = '';
-  CREATORS.forEach(name => {
-    const s=byC[name]; if(!s) return;
+  const purByC={};
+  buildCreatives(data).forEach(c=>{purByC[c.creator]=(purByC[c.creator]||0)+c.purchases;});
+  const grid=document.getElementById('creator-grid');
+  grid.innerHTML='';
+  CREATORS.forEach(name=>{
+    const s=byC[name]; if(!s||s.spend===0&&s.imp===0) return;
     const color=CC[name];
     const ctr=s.imp>0?s.lc/s.imp*100:0, cpc=s.lc>0?s.spend/s.lc:0;
     const vCtr=s.vdo.imp>0?s.vdo.lc/s.vdo.imp*100:0, iCtr=s.img.imp>0?s.img.lc/s.img.imp*100:0;
-    const pur=purByC[name]||0;
     const card=document.createElement('div');
     card.className='creator-card'; card.style.borderTopColor=color;
     card.innerHTML=
-      '<div class="cc-head">'
-      +'<div class="av" style="background:'+color+'">'+name[0]+'</div>'
-      +'<div><div class="cc-name">'+name+'</div><div class="cc-sub">\u20a9'+(s.spend/1000000).toFixed(1)+'M</div></div>'
-      +'</div>'
+      '<div class="cc-head"><div class="av" style="background:'+color+'">'+name[0]+'</div>'
+      +'<div><div class="cc-name">'+name+'</div><div class="cc-sub">\u20a9'+(s.spend/1000000).toFixed(1)+'M</div></div></div>'
       +'<div class="stat-grid">'
       +'<div class="stat"><div class="stl">CTR</div><div class="stv" style="color:'+color+'">'+ctr.toFixed(2)+'%</div></div>'
       +'<div class="stat"><div class="stl">CPC</div><div class="stv" style="color:'+color+'">\u20a9'+Math.round(cpc).toLocaleString()+'</div></div>'
       +'<div class="stat"><div class="stl">Clicks</div><div class="stv">'+s.lc.toLocaleString()+'</div></div>'
-      +'<div class="stat"><div class="stl">Purchases</div><div class="stv">'+pur+'</div></div>'
+      +'<div class="stat"><div class="stl">Purchases</div><div class="stv">'+(purByC[name]||0)+'</div></div>'
       +'</div>'
       +'<div class="media-row">'
       +'<div class="media-pill"><div class="media-lbl">Video CTR</div><div class="media-val">'+vCtr.toFixed(2)+'%</div></div>'
@@ -665,39 +665,36 @@ function renderCreatorCards(data) {
 }
 
 function renderTrend(data) {
-  // For monthly view (hist): group by month. For March: group by day.
-  const isMarch = activeMonth === '2026-03';
-  const isAll   = activeMonth === 'ALL';
-
-  let labelFn, groupFn;
-  if (isMarch) {
-    groupFn = r => r.date;
+  // For specific month: daily. For ALL: group by month then daily within.
+  let groups, labelFn;
+  if (activeMonth !== 'ALL') {
+    // single month — show daily
+    groups = [...new Set(data.map(r=>r.date))].sort();
     labelFn = d => d.slice(5);
-  } else if (isAll) {
-    groupFn = r => r.date.slice(0, 7);
-    labelFn = d => d;
   } else {
-    // specific hist month — group by day if available, else by month
-    groupFn = r => r.date.slice(0, 7) === activeMonth ? r.date : r.date.slice(0, 7);
-    labelFn = d => d.length > 7 ? d.slice(5) : d;
+    // ALL — group by month (summary points)
+    groups = [...new Set(data.map(r=>r.month))].sort();
+    labelFn = m => MONTH_LABELS[m] || m;
   }
 
-  const periods = [...new Set(data.map(groupFn))].sort();
   const datasets = CREATORS.map(name => {
     const color = CC[name];
-    const vals = periods.map(p => {
-      const rows = data.filter(r => groupFn(r)===p && r.creator===name);
+    const vals = groups.map(g => {
+      let rows;
+      if (activeMonth !== 'ALL') rows = data.filter(r=>r.date===g && r.creator===name);
+      else                       rows = data.filter(r=>r.month===g && r.creator===name);
       if (!rows.length) return null;
       const imp=rows.reduce((s,r)=>s+r.impressions,0), lc=rows.reduce((s,r)=>s+r.link_clicks,0), sp=rows.reduce((s,r)=>s+r.spend,0);
-      if (trendMetric==='ctr') return imp>0?lc/imp*100:0;
-      if (trendMetric==='cpc') return lc>0?sp/lc:0;
+      if(trendMetric==='ctr') return imp>0?lc/imp*100:0;
+      if(trendMetric==='cpc') return lc>0?sp/lc:0;
       return sp;
     });
-    return {label:name,data:vals,borderColor:color,backgroundColor:color+'18',borderWidth:2,pointRadius:2.5,pointHoverRadius:5,tension:.4,spanGaps:true,fill:false};
+    const pRadius = activeMonth !== 'ALL' ? 2.5 : 5;
+    return {label:name,data:vals,borderColor:color,backgroundColor:color+'18',borderWidth:2,pointRadius:pRadius,pointHoverRadius:6,tension:.4,spanGaps:true,fill:false};
   });
   const ctx=document.getElementById('trend-chart').getContext('2d');
   if(charts.trend) charts.trend.destroy();
-  charts.trend=new Chart(ctx,{type:'line',data:{labels:periods.map(labelFn),datasets},
+  charts.trend=new Chart(ctx,{type:'line',data:{labels:groups.map(labelFn),datasets},
     options:{responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
       plugins:{legend:{labels:{color:'#888780',font:{size:12},boxWidth:10,padding:14}}},
       scales:{
@@ -707,8 +704,7 @@ function renderTrend(data) {
     }
   });
 }
-
-function setTrend(m,el){trendMetric=m;document.querySelectorAll('[data-trend]').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderTrend(filteredRaw());}
+function setTrend(m,el){trendMetric=m;document.querySelectorAll('[data-trend]').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderTrend(activeRaw());}
 
 function renderBarCharts(data) {
   const labels=CREATORS,vdoCtr=[],imgCtr=[],vdoCpc=[],imgCpc=[];
@@ -720,9 +716,7 @@ function renderBarCharts(data) {
       if(mt==='vdo'){vdoCtr.push(ctr);vdoCpc.push(cpc);}else{imgCtr.push(ctr);imgCpc.push(cpc);}
     });
   });
-  const base={responsive:true,maintainAspectRatio:false,
-    plugins:{legend:{labels:{color:'#888780',font:{size:12},boxWidth:10,padding:12}}},
-    scales:{x:{ticks:{color:'#888780',font:{size:11}},grid:{display:false}},y:{ticks:{color:'#888780',font:{size:11}},grid:{color:'rgba(0,0,0,.04)',drawBorder:false}}}};
+  const base={responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#888780',font:{size:12},boxWidth:10,padding:12}}},scales:{x:{ticks:{color:'#888780',font:{size:11}},grid:{display:false}},y:{ticks:{color:'#888780',font:{size:11}},grid:{color:'rgba(0,0,0,.04)',drawBorder:false}}}};
   const c1=document.getElementById('ctr-chart').getContext('2d');
   if(charts.ctr) charts.ctr.destroy();
   charts.ctr=new Chart(c1,{type:'bar',data:{labels,datasets:[
@@ -737,9 +731,9 @@ function renderBarCharts(data) {
   ]},options:{...base,scales:{...base.scales,y:{...base.scales.y,ticks:{...base.scales.y.ticks,callback:v=>'\u20a9'+Math.round(v).toLocaleString()}}}}});
 }
 
-// ── CREATIVE VIEW ──────────────────────────────────────────────────────────
+// ── CREATIVE VIEW ────────────────────────────────────────────────────────────
 function render_creative(){
-  const data=filteredCreatives();
+  const data=activeCreatives();
   renderCreativeKPIs(data);
   renderRankChart(data);
   renderBDCharts(data);
@@ -751,37 +745,28 @@ function render_creative(){
 function renderCreativeKPIs(data){
   const spend=data.reduce((s,c)=>s+c.spend,0),lc=data.reduce((s,c)=>s+c.link_clicks,0),imp=data.reduce((s,c)=>s+c.impressions,0),pur=data.reduce((s,c)=>s+c.purchases,0);
   const ctr=imp>0?lc/imp*100:0,cpc=lc>0?spend/lc:0,cpa=pur>0?spend/pur:0;
-  const kpis=[
+  document.getElementById('c-kpis').innerHTML=[
     {label:'Total Spend',value:'\u20a9'+(spend/1000000).toFixed(1)+'M'},
     {label:'Avg CTR',value:ctr.toFixed(2)+'%'},
     {label:'Avg CPC',value:'\u20a9'+Math.round(cpc).toLocaleString()},
     {label:'Total Purchases',value:pur.toLocaleString()},
     {label:'Avg CPA',value:pur>0?'\u20a9'+Math.round(cpa).toLocaleString():'\u2014'},
-  ];
-  document.getElementById('c-kpis').innerHTML=kpis.map(k=>
-    '<div class="chart-card" style="margin-bottom:0;padding:14px 16px">'
-    +'<div class="stl">'+k.label+'</div>'
-    +'<div style="font-size:22px;font-weight:600;letter-spacing:-.02em;margin:4px 0 2px">'+k.value+'</div>'
-    +'</div>'
-  ).join('');
+  ].map(k=>'<div class="chart-card" style="margin-bottom:0;padding:14px 16px"><div class="stl">'+k.label+'</div><div style="font-size:22px;font-weight:600;letter-spacing:-.02em;margin:4px 0 2px">'+k.value+'</div></div>').join('');
 }
 
 function renderRankChart(data){
   const metric=rankMetric;
-  const sorted=[...data].filter(c=>metric==='cpa'?c.purchases>0:true)
-    .sort((a,b)=>metric==='cpc'||metric==='cpa'?a[metric]-b[metric]:b[metric]-a[metric]).slice(0,10);
+  const sorted=[...data].filter(c=>metric==='cpa'?c.purchases>0:true).sort((a,b)=>metric==='cpc'||metric==='cpa'?a[metric]-b[metric]:b[metric]-a[metric]).slice(0,10);
   const ctx=document.getElementById('rank-chart').getContext('2d');
   if(charts.rank) charts.rank.destroy();
   charts.rank=new Chart(ctx,{type:'bar',
-    data:{labels:sorted.map(c=>c.ad_name.length>18?c.ad_name.slice(0,17)+'\u2026':c.ad_name),
-      datasets:[{data:sorted.map(c=>c[metric]),backgroundColor:sorted.map(c=>(CC[c.creator]||'#888')+'cc'),borderColor:sorted.map(c=>CC[c.creator]||'#888'),borderWidth:1.5,borderRadius:5}]},
-    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{const v=ctx.raw;if(metric==='ctr')return ' '+v.toFixed(2)+'%';if(metric==='purchases')return ' '+Math.round(v);return ' \u20a9'+Math.round(v).toLocaleString();}}}},
+    data:{labels:sorted.map(c=>c.ad_name.length>18?c.ad_name.slice(0,17)+'\u2026':c.ad_name),datasets:[{data:sorted.map(c=>c[metric]),backgroundColor:sorted.map(c=>(CC[c.creator]||'#888')+'cc'),borderColor:sorted.map(c=>CC[c.creator]||'#888'),borderWidth:1.5,borderRadius:5}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{const v=ctx.raw;if(metric==='ctr')return ' '+v.toFixed(2)+'%';if(metric==='purchases')return ' '+Math.round(v);return ' \u20a9'+Math.round(v).toLocaleString();}}}},
       scales:{x:{ticks:{color:'#888780',font:{size:11},callback:v=>metric==='ctr'?v.toFixed(1)+'%':metric==='purchases'?v:'\u20a9'+Math.round(v/1000)+'K'},grid:{color:'rgba(0,0,0,.04)'}},y:{ticks:{color:'#333',font:{size:12}},grid:{display:false}}}
     }
   });
 }
-function setRank(m,el){rankMetric=m;document.querySelectorAll('[data-rank]').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderRankChart(filteredCreatives());}
+function setRank(m,el){rankMetric=m;document.querySelectorAll('[data-rank]').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderRankChart(activeCreatives());}
 
 function renderBDCharts(data){
   [{type:'creator',groupKey:'creator',id:'bd-creator'},{type:'media',groupKey:'media_type',id:'bd-media'},{type:'product',groupKey:'product',id:'bd-product'}].forEach(cfg=>{
@@ -796,16 +781,14 @@ function renderBDCharts(data){
     const bd=cfg.type==='creator'?labels.map(l=>CC[l]||'#888'):labels.map((_,i)=>palette[i%7]);
     const ctx=document.getElementById(cfg.id).getContext('2d');
     if(charts['bd_'+cfg.type]) charts['bd_'+cfg.type].destroy();
-    charts['bd_'+cfg.type]=new Chart(ctx,{type:'bar',
-      data:{labels,datasets:[{data:values,backgroundColor:bg,borderColor:bd,borderWidth:1.5,borderRadius:5}]},
-      options:{responsive:true,maintainAspectRatio:false,
-        plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{const v=ctx.raw;if(metric==='ctr')return ' '+v.toFixed(2)+'%';if(metric==='purchases')return ' '+Math.round(v);return ' \u20a9'+Math.round(v/1000)+'K';}}}},
+    charts['bd_'+cfg.type]=new Chart(ctx,{type:'bar',data:{labels,datasets:[{data:values,backgroundColor:bg,borderColor:bd,borderWidth:1.5,borderRadius:5}]},
+      options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{const v=ctx.raw;if(metric==='ctr')return ' '+v.toFixed(2)+'%';if(metric==='purchases')return ' '+Math.round(v);return ' \u20a9'+Math.round(v/1000)+'K';}}}},
         scales:{x:{ticks:{color:'#888780',font:{size:11}},grid:{display:false}},y:{ticks:{color:'#888780',font:{size:10},callback:v=>metric==='ctr'?v.toFixed(1)+'%':metric==='purchases'?v:'\u20a9'+Math.round(v/1000)+'K'},grid:{color:'rgba(0,0,0,.04)',drawBorder:false}}}
       }
     });
   });
 }
-function setBD(type,m,el){bdMetric[type]=m;document.querySelectorAll('[data-bd="'+type+'"]').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderBDCharts(filteredCreatives());}
+function setBD(type,m,el){bdMetric[type]=m;document.querySelectorAll('[data-bd="'+type+'"]').forEach(b=>b.classList.remove('active'));el.classList.add('active');renderBDCharts(activeCreatives());}
 
 function renderGrid(data){
   const total=data.length,pages=Math.ceil(total/GP);
@@ -822,22 +805,15 @@ function renderGrid(data){
     if(c.video_thumb) th='<div class="cc-thumb"><img src="'+c.video_thumb+'" alt="" loading="lazy" onerror="this.parentElement.style.display=\'none\'"><div class="cc-play"><svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg></div></div>';
     else if(c.image_url) th='<div class="cc-thumb"><img src="'+c.image_url+'" alt="" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>';
     const purColor=c.purchases>0?'#0F6E56':'var(--muted)',purVal=c.purchases>0?c.purchases:'\u2014',cpaVal=c.cpa>0?'\u20a9'+Math.round(c.cpa/1000)+'K':'\u2014';
-    el.innerHTML=th+'<div class="cc-body">'
-      +'<div class="cc-title" title="'+c.ad_name+'">'+c.ad_name+'</div>'
+    el.innerHTML=th+'<div class="cc-body"><div class="cc-title" title="'+c.ad_name+'">'+c.ad_name+'</div>'
       +'<div class="cc-tags"><span class="cc-tag tag-'+c.media_type+'">'+(c.media_type==='vdo'?'Video':'Image')+'</span><span class="cc-tag tag-prod">'+c.product+'</span><span class="cc-tag tag-type">'+c.ad_type+'</span></div>'
-      +'<div class="cc-metrics">'
-      +'<div><div class="cm-lbl">CTR</div><div class="cm-val" style="color:'+color+'">'+c.ctr.toFixed(2)+'%</div></div>'
-      +'<div><div class="cm-lbl">CPC</div><div class="cm-val">\u20a9'+Math.round(c.cpc/1000).toFixed(1)+'K</div></div>'
-      +'<div><div class="cm-lbl">Pur.</div><div class="cm-val" style="color:'+purColor+'">'+purVal+'</div></div>'
-      +'<div><div class="cm-lbl">CPA</div><div class="cm-val">'+cpaVal+'</div></div>'
-      +'</div>'
+      +'<div class="cc-metrics"><div><div class="cm-lbl">CTR</div><div class="cm-val" style="color:'+color+'">'+c.ctr.toFixed(2)+'%</div></div><div><div class="cm-lbl">CPC</div><div class="cm-val">\u20a9'+Math.round(c.cpc/1000).toFixed(1)+'K</div></div><div><div class="cm-lbl">Pur.</div><div class="cm-val" style="color:'+purColor+'">'+purVal+'</div></div><div><div class="cm-lbl">CPA</div><div class="cm-val">'+cpaVal+'</div></div></div>'
       +'<div class="cc-spark"><canvas id="sp'+i+'" height="32"></canvas></div>'
-      +'<div class="cc-foot"><span class="chip"><span class="cdot" style="background:'+color+'"></span><span style="color:'+color+'">'+c.creator+'</span></span><span>'+Object.keys(c.daily).length+'\uc77c</span></div>'
-      +'</div>';
+      +'<div class="cc-foot"><span class="chip"><span class="cdot" style="background:'+color+'"></span><span style="color:'+color+'">'+c.creator+'</span></span><span>'+Object.keys(c.daily).length+'\uc77c</span></div></div>';
     grid.appendChild(el);
     setTimeout(()=>{
       const dates=Object.keys(c.daily).sort(),vals=dates.map(d=>c.daily[d].imp>0?c.daily[d].lc/c.daily[d].imp*100:null);
-      const sc=document.getElementById('sp'+i); if(!sc) return;
+      const sc=document.getElementById('sp'+i); if(!sc||!dates.length) return;
       new Chart(sc.getContext('2d'),{type:'line',data:{labels:dates,datasets:[{data:vals,borderColor:color,borderWidth:1.5,pointRadius:0,tension:.4,fill:true,backgroundColor:color+'15',spanGaps:true}]},options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{display:false},tooltip:{enabled:false}},scales:{x:{display:false},y:{display:false}}}});
     },0);
   });
@@ -850,8 +826,7 @@ function renderTable(data){
   const slice=data.slice((tblPage-1)*TP,tblPage*TP);
   const maxSpend=data.length?data[0].spend||1:1;
   window._tbl=slice;
-  const tbody=document.getElementById('tbl-body');
-  tbody.innerHTML=slice.map((r,idx)=>{
+  document.getElementById('tbl-body').innerHTML=slice.map((r,idx)=>{
     const color=CC[r.creator]||'#888',pct=(r.spend/maxSpend*100).toFixed(0),pur=r.purchases>0;
     return '<tr onclick="openDrawer(window._tbl['+idx+'])" style="cursor:pointer">'
       +'<td style="font-weight:500;max-width:140px;overflow:hidden;text-overflow:ellipsis" title="'+r.ad_name+'">'+r.ad_name+'</td>'
@@ -859,11 +834,9 @@ function renderTable(data){
       +'<td><span class="bdg '+(r.media_type==='vdo'?'bvdo':'bimg')+'">'+(r.media_type==='vdo'?'Video':'Image')+'</span></td>'
       +'<td>'+r.product+'</td><td>'+r.ad_type+'</td>'
       +'<td style="min-width:120px"><div class="bar-wrap"><span style="font-size:12px">\u20a9'+(r.spend/1000).toFixed(0)+'K</span><div class="bar-bg"><div class="bar-fill" style="width:'+pct+'%;background:'+color+'88"></div></div></div></td>'
-      +'<td>'+r.ctr.toFixed(2)+'%</td>'
-      +'<td>\u20a9'+Math.round(r.cpc).toLocaleString()+'</td>'
+      +'<td>'+r.ctr.toFixed(2)+'%</td><td>\u20a9'+Math.round(r.cpc).toLocaleString()+'</td>'
       +'<td style="color:'+(pur?'#0F6E56':'var(--muted)')+';font-weight:'+(pur?600:400)+'">'+(pur?r.purchases:'\u2014')+'</td>'
-      +'<td>'+(r.cpa>0?'\u20a9'+Math.round(r.cpa).toLocaleString():'\u2014')+'</td>'
-      +'</tr>';
+      +'<td>'+(r.cpa>0?'\u20a9'+Math.round(r.cpa).toLocaleString():'\u2014')+'</td></tr>';
   }).join('');
   paginate('tbl',tblPage,total,TP,p=>{tblPage=p;renderTable(data);});
 }
@@ -902,27 +875,29 @@ function openDrawer(c){
   else if(c.image_url){drThumb.innerHTML='<img src="'+c.image_url+'" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;display:block" onerror="this.parentElement.style.display=\'none\'">';drThumb.style.display='block';}
   else drThumb.style.display='none';
   const dates=Object.keys(c.daily).sort();
-  const ctrVals=dates.map(d=>c.daily[d].imp>0?c.daily[d].lc/c.daily[d].imp*100:null);
-  const spVals=dates.map(d=>c.daily[d].spend);
   const dCtx=document.getElementById('dr-chart').getContext('2d');
   if(charts.drawer) charts.drawer.destroy();
-  charts.drawer=new Chart(dCtx,{type:'line',data:{labels:dates.map(d=>d.slice(5)),datasets:[
-    {label:'CTR %',data:ctrVals,borderColor:color,backgroundColor:color+'18',borderWidth:2,pointRadius:3,tension:.4,yAxisID:'y',spanGaps:true},
-    {label:'Spend',data:spVals,borderColor:'#888780',borderDash:[4,3],borderWidth:1.5,pointRadius:0,tension:.4,yAxisID:'y2'}
-  ]},options:{responsive:true,maintainAspectRatio:false,
-    plugins:{legend:{labels:{color:'#888780',font:{size:11},boxWidth:10,padding:10}}},
-    scales:{x:{ticks:{color:'#888780',font:{size:10},maxTicksLimit:10},grid:{color:'rgba(0,0,0,.04)'}},
-      y:{position:'left',ticks:{color:'#888780',font:{size:10},callback:v=>v.toFixed(1)+'%'},grid:{color:'rgba(0,0,0,.04)'}},
-      y2:{position:'right',ticks:{color:'#888780',font:{size:10},callback:v=>'\u20a9'+Math.round(v/1000)+'K'},grid:{display:false}}}
-  }});
-  const fD=[{label:'Impressions',value:c.impressions},{label:'Clicks',value:c.link_clicks},{label:'DPV',value:c.dpv},{label:'ATC',value:c.atc},{label:'Purchases',value:c.purchases}];
+  if(dates.length){
+    const ctrVals=dates.map(d=>c.daily[d].imp>0?c.daily[d].lc/c.daily[d].imp*100:null);
+    const spVals=dates.map(d=>c.daily[d].spend);
+    charts.drawer=new Chart(dCtx,{type:'line',data:{labels:dates.map(d=>d.slice(5)),datasets:[
+      {label:'CTR %',data:ctrVals,borderColor:color,backgroundColor:color+'18',borderWidth:2,pointRadius:3,tension:.4,yAxisID:'y',spanGaps:true},
+      {label:'Spend',data:spVals,borderColor:'#888780',borderDash:[4,3],borderWidth:1.5,pointRadius:0,tension:.4,yAxisID:'y2'}
+    ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#888780',font:{size:11},boxWidth:10,padding:10}}},
+      scales:{x:{ticks:{color:'#888780',font:{size:10},maxTicksLimit:10},grid:{color:'rgba(0,0,0,.04)'}},
+        y:{position:'left',ticks:{color:'#888780',font:{size:10},callback:v=>v.toFixed(1)+'%'},grid:{color:'rgba(0,0,0,.04)'}},
+        y2:{position:'right',ticks:{color:'#888780',font:{size:10},callback:v=>'\u20a9'+Math.round(v/1000)+'K'},grid:{display:false}}}
+    }});
+  } else {
+    dCtx.canvas.parentElement.innerHTML='<div style="padding:20px;text-align:center;color:var(--muted);font-size:13px">12\uc6d4\ub2e412\uc6d4\ub2e4 \ub370\uc774\ud130\ub294 \uc6d4\ubcc4 \uc9d1\uacc4\ub9cc \uc81c\uacf5\ub429\ub2c8\ub2e4</div>';
+  }
+  const fD=[{label:'Impressions',value:c.impressions},{label:'Clicks',value:c.link_clicks},{label:'DPV',value:c.dpv||0},{label:'ATC',value:c.atc||0},{label:'Purchases',value:c.purchases}];
   const maxV=fD[0].value||1;
   document.getElementById('dr-funnel').innerHTML=fD.map(f=>
     '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">'
     +'<div style="width:80px;font-size:11px;color:var(--muted);text-align:right">'+f.label+'</div>'
     +'<div style="flex:1;background:var(--surface2);border-radius:3px;height:5px"><div style="width:'+Math.min(100,f.value/maxV*100).toFixed(1)+'%;height:100%;background:'+color+'88;border-radius:3px"></div></div>'
-    +'<div style="width:52px;font-size:12px;font-weight:600;text-align:right">'+(f.value>0?f.value.toLocaleString():'\u2014')+'</div>'
-    +'</div>'
+    +'<div style="width:52px;font-size:12px;font-weight:600;text-align:right">'+(f.value>0?f.value.toLocaleString():'\u2014')+'</div></div>'
   ).join('');
   document.getElementById('overlay').classList.add('open');
   document.getElementById('drawer').classList.add('open');
@@ -930,7 +905,6 @@ function openDrawer(c){
 function closeDrawer(){document.getElementById('overlay').classList.remove('open');document.getElementById('drawer').classList.remove('open');}
 function setView(v){currentView=v;document.getElementById('view-grid').style.display=v==='grid'?'block':'none';document.getElementById('view-table').style.display=v==='table'?'block':'none';document.getElementById('vbtn-grid').classList.toggle('active',v==='grid');document.getElementById('vbtn-table').classList.toggle('active',v==='table');}
 
-// ── START ──────────────────────────────────────────────────────────────────
 loadData();
 
 </script>
